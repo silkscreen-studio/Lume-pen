@@ -28,9 +28,33 @@ The flex PCB, made of multiple flaps bent over each other to achieve the 5mm wid
  - Flexible PCB, ENIG, with stiffener: 125x40mm² panel with both the LUME and charger PCB
 ## Magnetic charger:
  - Smart charger with the $0.25 CH32V003 MCU (16kB FLASH, 2kB SRAM)
- - Load switch (TPS2553DRVR-1) with latch off short circuit protection, MCU FAULT assertion, MCU ENABLE,
+ - Load switch (TPS2553DRVR-1) with latch off overcurrent and short circuit protection, MCU FAULT assertion, MCU ENABLE,
  - mating detection to enable/disable charging
- - 5 white LEDs to display charging animation, and 1 RED FAULT LED 
+ - 5 white LEDs to display charging animation, and 1 RED FAULT LED
+
+
+
+# PCB design:
+## Schematic:
+[img]
+
+## Layout
+[img]
+
+Before ordering the flexible PCB, I'll validate the schematic and test the firmware with a Debug-friendly board. With it's many test points, separated block design allowing easy cut traces and bodge wires, debugging selection switches and UART communication will make the debugging process a lot easier:
+
+[img]
+
+
+# Firmware:
+## Lume pen firmware (ATtiny1616): 
+The ATtiny1616 is programmed with the Arduino IDE. I'm using 2 custom made libraries as I needed a lightweight library for the RX8111 (only implementing the clock feature) and a library for the poorly documented AW93105 IC. I used the help of Claude AI to code 2 really basic libraries, especially for the AW93105, and I'll then later built from that a usable library with all the features implemented once I've tried this basis on the Debug-friendly PCB. So I kept these first library as simple as possible to make debugging easier, and this is why the sliding and other gesture aren't implemented yet, so the main MCU code is thus just a sketch, that won't behave properly out of the box (since it can't react to non implemented gesture). The Charlieplexed display and other logic should be working independently though.
+The code (thus still a W.I.P) is available in /Firmware/LUME_PEN
+
+## Charger firmware (CH32V003):
+The CH32V003 is programmed with the Mounriver Studio IDE. The code (untested for now), that handles power management, Fault handling, LED animation (PWM), and mating detection is available in /Firmware/CHARGER/main.c
+
+
 <br><br>
 # Design Renders
 <br><br>
