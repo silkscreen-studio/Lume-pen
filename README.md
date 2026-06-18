@@ -2,27 +2,52 @@
 The most ordinary pen, except that it has electronics stuffed inside, on a flexible PCB. It can even tell the time and double as a pomodoro timer, thanks to a tiny custom 7 segment display, with a capacitive slider to control it easily 
 
 I mainly made this project to challenge myself on integrating electronics in such a tight space (6mm hollow tube) and to design my first Flex PCB. Also, I always thought that integrating a mini segmented display and a capacitive slider into a pen body would look really cool, and it looks exactly as cool as I imagined it.
-ㅤ
-ㅤ
-ㅤ
+
+<br><br>
 <img width="983" height="1499" alt="LUME Pen ZINE V1 1" src="https://github.com/user-attachments/assets/b066e538-5ad8-4684-90f4-f7a00f366bf1" />
 
+The Lume Pen body is split in 3 parts, in MJF Nylon and SLA clear resin, to make assembly possible while giving texture to the design.
+The flex PCB, made of multiple flaps bent over each other to achieve the 5mm width runs all along under the pen body, while keeping space for an half-long BIC® cartridge as well as a rod shaped 4.5mm wide li-ion battery. The segments on the display are shaped from the 30x 0402 LEDs with 3 layers: a small 3D printed spacer (FDM, .2mm nozzle), a thin diffuser sheet and a custom designed light mask to get sharp segments, made from a  precisely laser cut 100 microns thin steel plate, also known as a stencil...
 
+# Product Key features:
+ - The Lume pen can tell the time, be used as a Pomodoro timer (configurable timer with multiple sessions possible, alterning 5-60 min of work with a 5 minute break), and... be used as a normal pen too...
+ - Sleek design, MJF Nylon & Clear Resin body to see the electronics
+ - Capacitive slider to enable gesture control
+ - Stylish Segmented Display Font [^1], made from 30 orange LEDs
+ - No ON/OFF switch: capacitive CMD button to shut it down, can last a few months on a single charge when turned off
+ - Magnetic charger (with pogopins), to charge it easily (from a USB-A port)
 
-
+# Technical Key features:
+## Lume pen:
+ - Built around the power efficient ATtiny1616 MCU (16kB FLASH, 2kB SRAM)
+ - 2x I²C ICs for the RTC (RX8111) and capacitive touch management (AW93105)
+ - Onboard LP5907 3.0V LDO with ultra low quiscent current (12µA)
+ - 3.7V Li-ion rod shaped battery, 25mAh, and its BQ25170 charging IC
+ - interfaces with the charger thanks to 4 gold plated contacts (pogopins on the charger): VIN, GND, UPDI and a connection detect pin.
+ - Charlieplexed 30x 0402 orange LEDs 4 digit 7-segment display
+ - Flexible PCB, ENIG, with stiffener: 125x40mm² panel with both the LUME and charger PCB
+## Magnetic charger:
+ - Smart charger with the $0.25 CH32V003 MCU (16kB FLASH, 2kB SRAM)
+ - Load switch (TPS2553DRVR-1) with latch off short circuit protection, MCU FAULT assertion, MCU ENABLE,
+ - mating detection to enable/disable charging
+ - 5 white LEDs to display charging animation, and 1 RED FAULT LED 
+<br><br>
 # Design Renders
-ㅤ
-ㅤ
-ㅤ
+<br><br>
 <img width="2880" height="1259" alt="Render 1" src="https://github.com/user-attachments/assets/7e453c96-0787-4052-a269-8704c4139a6d" />
 <img width="2880" height="1512" alt="Render 2" src="https://github.com/user-attachments/assets/34635aea-6ece-4486-aa97-3c482565c643" />
 <img width="2880" height="1259" alt="Render 3" src="https://github.com/user-attachments/assets/28e8ce2e-f858-49df-b030-4878f5851ab3" />
-
 <img width="2880" height="1259" alt="Render 4" src="https://github.com/user-attachments/assets/d4d0da5d-9906-4f21-bb0e-d4500e93aae7" />
 <img width="2880" height="1259" alt="Render 10" src="https://github.com/user-attachments/assets/36f019f9-5e92-438f-9005-3a07b3b9be4f" />
+<br><br>
+## ... and under the shell:
+
 
 <img width="2880" height="1259" alt="Render 5" src="https://github.com/user-attachments/assets/732c7524-5485-484f-b550-69218bcfbcdc" />
 <img width="2880" height="1512" alt="Render 6" src="https://github.com/user-attachments/assets/9a6a7f48-b2b2-4820-99a2-326f520f1eab" />
 <img width="2880" height="1259" alt="Render 7" src="https://github.com/user-attachments/assets/722ea8fb-fbdc-4f01-9662-332cd07d4496" />
 <img width="2880" height="1259" alt="Render 8" src="https://github.com/user-attachments/assets/cf3e2754-47ae-496f-b252-df0eab0365c9" />
 <img width="2880" height="1259" alt="Render 9" src="https://github.com/user-attachments/assets/5aabd0e1-7ce6-4dcb-8704-b8f1e9440766" />
+
+
+[^1]: Inspired from the **Seamless** font, a design by Michiel de Boer (_Pozy_): https://www.youtube.com/watch?v=RTB5XhjbgZA&t=6s and https://www.michieldb.nl/other/segments/
