@@ -23,7 +23,7 @@ The flex PCB, made of multiple flaps bent over each other to achieve the 5mm wid
  - 2x I²C ICs for the RTC (RX8111) and capacitive touch management (AW93105)
  - Onboard LP5907 3.0V LDO with ultra low quiscent current (12µA)
  - 3.7V Li-ion rod shaped battery, 25mAh, and its BQ25170 charging IC
- - interfaces with the charger thanks to 4 gold plated contacts (pogopins on the charger): VIN, GND, UPDI and a connection detect pin.
+ - interfaces with the charger thanks to 4 gold plated contacts (pogopins on the charger): VIN, GND, UPDI and a mating detect pin.
  - Charlieplexed 30x 0402 orange LEDs 4 digit 7-segment display
  - Flexible PCB, ENIG, with stiffener: 125x40mm² panel with both the LUME and charger PCB
 ## Magnetic charger:
@@ -34,16 +34,34 @@ The flex PCB, made of multiple flaps bent over each other to achieve the 5mm wid
 
 
 
-# PCB design:
-## Schematic:
-[img]
 
-## Layout
-[img]
+# Schematic:
+## Lume Pen schematic
+<img width="2826" height="1337" alt="LUME_pen_schematic_V1 0" src="https://github.com/user-attachments/assets/e2fb37a1-97cb-41ee-a66e-37b897f8065d" />
 
-Before ordering the flexible PCB, I'll validate the schematic and test the firmware with a Debug-friendly board. With it's many test points, separated block design allowing easy cut traces and bodge wires, debugging selection switches and UART communication will make the debugging process a lot easier:
+## Charger shematic
 
-[img]
+<img width="2444" height="1484" alt="LUME_pen_charger_schematic_V1 0" src="https://github.com/user-attachments/assets/1c48793e-ca03-4a9a-bf1e-bf864df74b65" />
+
+
+# PCB Layout:
+## LUME flexible Panel:
+
+<img width="2735" height="941" alt="LUME Panel recto" src="https://github.com/user-attachments/assets/95d84265-cb60-4796-9685-071e9e00ceb2" />
+<img width="2751" height="950" alt="LUME Panel verso" src="https://github.com/user-attachments/assets/6b71091d-87bb-4e7b-a504-3d39d109baf3" />
+<img width="2171" height="756" alt="Top Layer" src="https://github.com/user-attachments/assets/e7325ee1-ceb9-446f-86c1-cbda2646b928" />
+<img width="1937" height="698" alt="Bottom Layer" src="https://github.com/user-attachments/assets/21d92b6b-4591-4a59-883b-84a07ab3e4e6" />
+
+
+
+## Debug friendly FR4 board
+
+Before ordering the flexible PCB, I'll validate the schematic and test the firmware with a Debug-friendly board. With its many test points, separated block design allowing easy cut traces and bodge wires, debugging selection switches and UART communication will make the debugging process a lot easier:
+
+<img width="1967" height="1456" alt="Debug friendly FR4 3D" src="https://github.com/user-attachments/assets/e7fa400f-2be5-4859-83ed-bbff7da3f6f6" />
+
+<img width="1800" height="1375" alt="Debug friendly FR4 3D back" src="https://github.com/user-attachments/assets/806b5b81-2c45-4fd1-982c-bc36c6f03cb4" />
+<img width="1772" height="1482" alt="Debug friendly FR4 layout" src="https://github.com/user-attachments/assets/60dcf7fe-ba7e-4d32-8754-e6496f3b1ee7" />
 
 
 # Firmware:
