@@ -19,16 +19,16 @@ The flex PCB, made of multiple flaps bent over each other to achieve the 5mm wid
 
 # Technical Key features:
 ## Lume pen:
- - Built around the power efficient ATtiny1616 MCU (16kB FLASH, 2kB SRAM)
- - 2x I²C ICs for the RTC (RX8111) and capacitive touch management (AW93105)
- - Onboard LP5907 3.0V LDO with ultra low quiscent current (12µA)
- - 3.7V Li-ion rod shaped battery, 25mAh, and its BQ25170 charging IC
+ - Built around the power efficient `ATtiny1616` MCU (16kB FLASH, 2kB SRAM)
+ - 2x I²C ICs for the RTC (`RX8111`) and capacitive touch management (`AW93105`)
+ - Onboard `LP5907` 3.0V LDO with low quiscent current (12µA)
+ - 3.7V Li-ion rod shaped battery, 25mAh, and its `BQ25170` charging IC
  - interfaces with the charger thanks to 4 gold plated contacts (pogopins on the charger): VIN, GND, UPDI and a mating detect pin.
  - Charlieplexed 30x 0402 orange LEDs 4 digit 7-segment display
  - Flexible PCB, ENIG, with stiffener: 125x40mm² panel with both the LUME and charger PCB
 ## Magnetic charger:
- - Smart charger with the $0.25 CH32V003 MCU (16kB FLASH, 2kB SRAM)
- - Load switch (TPS2553DRVR-1) with latch off overcurrent and short circuit protection, MCU FAULT assertion, MCU ENABLE,
+ - Smart charger with the $0.25 `CH32V003` MCU (16kB FLASH, 2kB SRAM)
+ - Load switch (`TPS2553DRVR-1`) with latch off overcurrent and short circuit protection, MCU FAULT assertion, MCU ENABLE,
  - mating detection to enable/disable charging
  - 5 white LEDs to display charging animation, and 1 RED FAULT LED
 
@@ -91,7 +91,7 @@ The CH32V003 is programmed with the Mounriver Studio IDE. The code (untested for
 <img width="2880" height="1259" alt="Render 8" src="https://github.com/user-attachments/assets/cf3e2754-47ae-496f-b252-df0eab0365c9" />
 <img width="2880" height="1259" alt="Render 9" src="https://github.com/user-attachments/assets/5aabd0e1-7ce6-4dcb-8704-b8f1e9440766" />
 
-## finally, the mgnetic charger:
+## finally, the magnetic charger:
 
 <img width="2880" height="1472" alt="Rd2" src="https://github.com/user-attachments/assets/71a73cf6-86f8-4200-bcc9-42707662e00f" />
 
