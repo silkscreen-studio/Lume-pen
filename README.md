@@ -37,7 +37,8 @@ The flex PCB, made of multiple flaps bent over each other to achieve the 5mm wid
 
 # Schematic:
 ## Lume Pen schematic
-<img width="2826" height="1337" alt="LUME_pen_schematic_V1 0" src="https://github.com/user-attachments/assets/e2fb37a1-97cb-41ee-a66e-37b897f8065d" />
+<img width="2432" height="1151" alt="LUME_pen_schematic_V1 0" src="https://github.com/user-attachments/assets/15e386fb-392c-448f-90b0-cef89ceac343" />
+
 
 ## Charger shematic
 
