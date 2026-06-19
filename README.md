@@ -91,5 +91,10 @@ The CH32V003 is programmed with the Mounriver Studio IDE. The code (untested for
 <img width="2880" height="1259" alt="Render 8" src="https://github.com/user-attachments/assets/cf3e2754-47ae-496f-b252-df0eab0365c9" />
 <img width="2880" height="1259" alt="Render 9" src="https://github.com/user-attachments/assets/5aabd0e1-7ce6-4dcb-8704-b8f1e9440766" />
 
+## finally, the mgnetic charger:
+
+<img width="2880" height="1472" alt="Rd2" src="https://github.com/user-attachments/assets/71a73cf6-86f8-4200-bcc9-42707662e00f" />
+
+<img width="2880" height="1472" alt="Rd3" src="https://github.com/user-attachments/assets/5c14674c-89a4-4c08-b59d-c76b6f70fee0" />
 
 [^1]: Inspired from the **Seamless** font, a design by Michiel de Boer (_Pozy_): https://www.youtube.com/watch?v=RTB5XhjbgZA&t=6s and https://www.michieldb.nl/other/segments/
