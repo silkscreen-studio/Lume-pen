@@ -7,7 +7,7 @@ I mainly made this project to challenge myself on integrating electronics in suc
 <img width="983" height="1499" alt="LUME Pen ZINE V1 1" src="https://github.com/user-attachments/assets/b066e538-5ad8-4684-90f4-f7a00f366bf1" />
 
 The Lume Pen body is split in 3 parts, in MJF Nylon and SLA clear resin, to make assembly possible while giving texture to the design.
-The flex PCB, made of multiple flaps bent over each other to achieve the 5mm width runs all along under the pen body, while keeping space for an half-long BIC® cartridge as well as a rod shaped 4.5mm wide li-ion battery. The segments on the display are shaped from the 30x 0402 LEDs with 3 layers: a small 3D printed spacer (FDM, .2mm nozzle), a thin diffuser sheet and a custom designed light mask to get sharp segments, made from a  precisely laser cut 100 microns thin steel plate, also known as a stencil...
+The flex PCB, made of multiple flaps bent over each other to achieve the 5mm width runs all along the pen body, while keeping space for an half-long BIC® cartridge as well as a rod shaped 4.5mm wide li-ion battery. The segments on the display are shaped from the 30x 0402 LEDs with 3 layers: a small 3D printed spacer (FDM, .2mm nozzle), a thin diffuser sheet and a custom designed light mask to get sharp segments, made from a  precisely laser cut 100 microns thin steel plate, also known as a stencil...
 
 # Product Key features:
  - The Lume pen can tell the time, be used as a Pomodoro timer (configurable timer with multiple sessions possible, alterning 5-60 min of work with a 5 minute break), and... be used as a normal pen too...
@@ -47,22 +47,25 @@ The flex PCB, made of multiple flaps bent over each other to achieve the 5mm wid
 
 # PCB Layout:
 ## LUME flexible Panel:
+I decided to panelize it with 2 Lume variant, where I have a line pattern silkscreen on one variant, and a full white pour on the other one, on all the visible parts. Not knowing what the yellow coverlay would look like in real life, I could now see which one looks better. Ordering this dual panel is only $6 more expensive ($40.42 for 5 panel, so 10 Lume PCBs) than the single panel ($34.14 for 5 panel, so 5 Lume PCBs). Why not directly choose a white (or black) coverlay? As it adds a $8 fee, it would have been $42.14 for the single panel (5 Lume PCBs).
 
-<img width="2735" height="941" alt="LUME Panel recto" src="https://github.com/user-attachments/assets/95d84265-cb60-4796-9685-071e9e00ceb2" />
-<img width="2751" height="950" alt="LUME Panel verso" src="https://github.com/user-attachments/assets/6b71091d-87bb-4e7b-a504-3d39d109baf3" />
-<img width="2171" height="756" alt="Top Layer" src="https://github.com/user-attachments/assets/e7325ee1-ceb9-446f-86c1-cbda2646b928" />
-<img width="1937" height="698" alt="Bottom Layer" src="https://github.com/user-attachments/assets/21d92b6b-4591-4a59-883b-84a07ab3e4e6" />
+For $40, I have 10 Lume pen PCBs (5 of each variant), with PI stiffener and ENIG finish.
 
+<img width="2418" height="1239" alt="LUME PANEL 3D" src="https://github.com/user-attachments/assets/23934952-e43c-41e9-8d09-dad9eb4a9198" />
+<img width="2824" height="932" alt="LUME PANEL Top 2" src="https://github.com/user-attachments/assets/d7a44c6a-fd48-49ae-992c-2df0020fbae4" />
+<img width="2824" height="952" alt="LUME PANEL Bottom 2" src="https://github.com/user-attachments/assets/23b7f0b9-09a6-4c60-963d-6a49a2a7bb56" />
 
 
 ## Debug friendly FR4 board
 
-Before ordering the flexible PCB, I'll validate the schematic and test the firmware with a Debug-friendly board. With its many test points, separated block design allowing easy cut traces and bodge wires, debugging selection switches and UART communication will make the debugging process a lot easier:
+Before ordering the flexible PCB, I'll validate the schematic and test the firmware with a Debug-friendly board, on a cheap FR4 board. With its many test points, separated block design allowing easy cut traces and bodge wires, debugging selection switches and UART communication will make the debugging process a lot easier:
 
 <img width="1967" height="1456" alt="Debug friendly FR4 3D" src="https://github.com/user-attachments/assets/e7fa400f-2be5-4859-83ed-bbff7da3f6f6" />
 
 <img width="1800" height="1375" alt="Debug friendly FR4 3D back" src="https://github.com/user-attachments/assets/806b5b81-2c45-4fd1-982c-bc36c6f03cb4" />
 <img width="1772" height="1482" alt="Debug friendly FR4 layout" src="https://github.com/user-attachments/assets/60dcf7fe-ba7e-4d32-8754-e6496f3b1ee7" />
+
+I'm using my dual UPDI programmer and Serial communication debug tool I made for AngstromIO [^2], which explains the specific 'daugther board' footprint, but any UPDI programmer and USB to UART would work perfectly too.
 
 
 # Firmware:
@@ -99,3 +102,4 @@ The CH32V003 is programmed with the Mounriver Studio IDE. The code (untested for
 <img width="2880" height="1472" alt="Rd3" src="https://github.com/user-attachments/assets/5c14674c-89a4-4c08-b59d-c76b6f70fee0" />
 
 [^1]: Inspired from the **Seamless** font, a design by Michiel de Boer (_Pozy_): https://www.youtube.com/watch?v=RTB5XhjbgZA&t=6s and https://www.michieldb.nl/other/segments/
+[^2]: more info on my other repository: https://github.com/Dieu-de-l-elec/AngstromIO-devboard
