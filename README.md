@@ -54,10 +54,13 @@ I decided to panelize it with 2 Lume variant, where I have a line pattern silksc
 
 For $40, I have 10 Lume pen PCBs (5 of each variant), with PI stiffener and ENIG finish.
 
-<img width="2418" height="1239" alt="LUME PANEL 3D" src="https://github.com/user-attachments/assets/23934952-e43c-41e9-8d09-dad9eb4a9198" />
-<img width="2824" height="932" alt="LUME PANEL Top 2" src="https://github.com/user-attachments/assets/d7a44c6a-fd48-49ae-992c-2df0020fbae4" />
-<img width="2824" height="952" alt="LUME PANEL Bottom 2" src="https://github.com/user-attachments/assets/23b7f0b9-09a6-4c60-963d-6a49a2a7bb56" />
+<img width="2418" height="1239" alt="LUME PANEL 3D" src="PCB/LUME PANEL 3D.png" />
+<img width="2824" height="932" alt="LUME PANEL Top 2" src="PCB/LUME PANEL Top 2.png" />
+<img width="2824" height="952" alt="LUME PANEL Bottom 2" src="PCB/LUME PANEL Bottom 2.png" />
 
+
+<img width="2824" height="952" alt="LUME LAYOUT PANEL TOP" src="PCB/LUME LAYOUT TOP.png" />
+<img width="2824" height="952" alt="LUME LAYOUT PANEL  BOTTOM" src="PCB/LUME LAYOUT BOTTOM.png" />
 
 ## Debug friendly FR4 board
 
