@@ -1,0 +1,1 @@
+All the 3D printed parts can be found in a subfolder, the DXF file is for the diffuser sheet, that can be laser cut out of a diffusing material (I'll try with tracing paper, it usually gives decent results), and the whole assembly (STEP) and design files (F3Z) can be found here too. 
