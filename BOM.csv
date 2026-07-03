@@ -1,5 +1,5 @@
 Product, Qty, Part, Value, LCSC Part number, Price/unit, minimum Price [MOQ], Extended description, Link, Price for 3 boards
-,,,,,,,
+,,,,,,,,,
 LUME PEN, 1, ATTINY1616-MNR, , C507118, $1.0236, $1.0236, Main MCU, https://www.lcsc.com/product-detail/C507118.html, $3.07
 LUME PEN, 1, TI LP5907SNX-3.0/NOPB, 3.0V, C182423, $0.1967, $0.98 [5], LDO, https://www.lcsc.com/product-detail/C182423.html, $2.94
 LUME PEN, 1, BQ25170DSGR, , C5208201, $0.59, $0.59 , Li ion battery charger IC, https://www.lcsc.com/product-detail/C5208201.html, $1.77
