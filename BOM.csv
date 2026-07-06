@@ -40,5 +40,5 @@ ADDITIONAL PARTS (DEBUG PCB),1,LESD5D5.0CT1G,,C5199850,$0.0166,$0.83 [50],TVS di
 ADDITIONAL PARTS (DEBUG PCB),1,RB520SM-40T2R,,C253514,$0.03,$0.56 [20],Schottky diode,https://www.lcsc.com/product-detail/C253514.html, 
 ADDITIONAL PARTS (DEBUG PCB),2,MK-12C02-G015,,C2911519,$0.014,$0.67 [5],Slide Switch SPDT,https://www.lcsc.com/product-detail/C2911519.html, 
 ADDITIONAL PARTS (DEBUG PCB),2,HC-PM254-8.5H-1x3PW-02A,,C22373927,$0.09,$0.46 [5],90° 2.54mm 1x3 HEADERS,https://www.lcsc.com/product-detail/C22373927.html, 
-,for debugging, use with the debug PCB: UPDI Programmer and serial to USB tool,,,,,,,,
+,for debugging with the debug PCB: UPDI Programmer and serial to USB tool,,,,,,,,
 
