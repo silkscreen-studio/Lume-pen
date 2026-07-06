@@ -1,4 +1,4 @@
-Product,Qty,Part,Value,LCSC Part number,Price/unit,minimum Price [MOQ],Extended description,Link,Price for 3 boards
+Product,Qty,Part,Value,LCSC Part number,Price/unit,minimum Price [MOQ],Extended description,Link,Price for 3 boards & 3 chargers combined
 ,,,,,,,,,
 LUME PEN,1,ATTINY1616-MNR,,C507118,$1.0236,$1.0236,Main MCU,https://www.lcsc.com/product-detail/C507118.html,$3.07
 LUME PEN,1,TI LP5907SNX-3.0/NOPB,3.0V,C182423,$0.1967,$0.98 [5],LDO,https://www.lcsc.com/product-detail/C182423.html,$2.94
@@ -23,6 +23,22 @@ LUME PEN,6,CRCW0402680RFKED,680,C482224,$0.0047,$0.47 [100],0402 Resistor,https:
 LUME PEN,5,CRCW04020000Z0ED,0,C190119,$0.0033,$0.33 [100],0402 shunt Resistor (capacitive tuning),https://www.lcsc.com/product-detail/C190119.html, 
 ,,,,,,,,,
 CHARGER,5,XL-1005UWC,Vf: 2.8V,C20613596,$0.0112,$0.56 [50],0402 White LED,https://www.lcsc.com/product-detail/C20613596.html, 
-
-
+CHARGER,1,XL-1005SURC,Vf: 2.0V,C25503345,$0.0083,$0.42 [50],0402 Red LED,https://www.lcsc.com/product-detail/C25503345.html,
+CHARGER,2,CRCW040220K0FKED,20k,C482096,$0.0044,$0.44 [100],0402 Resistor,https://www.lcsc.com/product-detail/C482096.html,
+CHARGER,1,CRCW0402100KFKEDC,100k,C844712,$0.0063,$0.63 [100],0402 Resistor,https://www.lcsc.com/product-detail/C844712.html,
+CHARGER,1,CRCW040210K0JNED,10k,C191984,$0.0039,$0.39 [100],0402 Resistor,https://www.lcsc.com/product-detail/C191984.html,
+CHARGER,3,CL05A104KA5NNNC,100nF,C100072,$0.0033,$0.33 [100],0402 MLCC,https://www.lcsc.com/product-detail/C100072.html, 
+CHARGER,6,CRCW0402330RFKED,330,C71626,$0.0042,$0.42 [100],0402 Resistor,https://www.lcsc.com/product-detail/C71626.html, 
+CHARGER,1,CL05A106MP8NUB8,10µF,C307415,$0.15,$0.73 [5],0402 MLCC,https://www.lcsc.com/product-detail/C307415.html,
+CHARGER,1,TPS2553DRVR-1,,C411878,$0.39,$1.94 [5],Load switch IC,https://www.lcsc.com/product-detail/C411878.html,
+CHARGER,1,CH32V003F4U6,,C5299908,$0.32,$1.58 [5],Main MCU,https://www.lcsc.com/product-detail/C5299908.html,
+CHARGER,1,LESD5D5.0CT1G,,C5199850,$0.0166,$0.83 [50],TVS diode,https://www.lcsc.com/product-detail/C5199850.html,
+CHARGER,1,RB520SM-40T2R,,C253514,$0.03,$0.56 [20],Schottky diode,https://www.lcsc.com/product-detail/C253514.html, 
+CHARGER,4,BWCD-L4.5W2.0H2.3,,C2826546,$0.07,$1.08 [15],Pogopin,https://www.lcsc.com/product-detail/C2826546.html, 
+,,,,,,,,,
+ADDITIONAL PARTS (DEBUG PCB),1,LESD5D5.0CT1G,,C5199850,$0.0166,$0.83 [50],TVS diode,https://www.lcsc.com/product-detail/C5199850.html,
+ADDITIONAL PARTS (DEBUG PCB),1,RB520SM-40T2R,,C253514,$0.03,$0.56 [20],Schottky diode,https://www.lcsc.com/product-detail/C253514.html, 
+ADDITIONAL PARTS (DEBUG PCB),2,MK-12C02-G015,,C2911519,$0.014,$0.67 [5],Slide Switch SPDT,https://www.lcsc.com/product-detail/C2911519.html, 
+ADDITIONAL PARTS (DEBUG PCB),2,HC-PM254-8.5H-1x3PW-02A,,C22373927,$0.09,$0.46 [5],90° 2.54mm 1x3 HEADERS,https://www.lcsc.com/product-detail/C22373927.html, 
+,for debugging, use with the debug PCB: UPDI Programmer and serial to USB tool,,,,,,,,
 
