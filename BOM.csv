@@ -14,9 +14,13 @@ LUME PEN, 2, 0402 MLCC, 4.7µF, C2858031, $0.0701, $1.4 [20], , https://www.lcsc
 LUME PEN, 1, XL-1005UBC, Vf: 3.0V, C22355736, $0.008, $0.40 [50] , 0402 Blue LED (STAT Charging), https://www.lcsc.com/product-detail/C22355736.html, 
 
 LUME PEN, 2, CRCW04024K70FKED, 4.7k , C482193, $0.0039, $0.39 [100] , 0402Resistor, https://www.lcsc.com/product-detail/C482193.html, 
-LUME PEN, 1, CRCW040220K0FKED, 20k , C482096, $0.0044, $0.44 [100] , 0402 Resistor, https://www.lcsc.com/product-detail/C482096.html, 
-LUME PEN, 1, CRCW040224K0FKED, 20k , C295000, $0.0042, $0.42 [100] , 0402 Resistor, https://www.lcsc.com/product-detail/C295000.html, 
+LUME PEN, 3, CRCW040220K0FKED, 20k , C482096, $0.0044, $0.44 [100] , 0402 Resistor, https://www.lcsc.com/product-detail/C482096.html, 
+LUME PEN, 1, CRCW040224K0FKED, 24k , C295000, $0.0042, $0.42 [100] , 0402 Resistor, https://www.lcsc.com/product-detail/C295000.html, 
 LUME PEN, 1, CRCW040227K0FKEDC, 27k , C1730799, $0.0052, $0.52 [100] , 0402 Resistor, https://www.lcsc.com/product-detail/C1730799.html, 
+LUME PEN, 3, CRCW040210K0JNED, 10k , C191984, $0.0039, $0.39 [100] , 0402 Resistor, https://www.lcsc.com/product-detail/C191984.html, 
+LUME PEN, 1, CRCW0402100KFKEDC, 100k , C844712, $0.0063, $0.63 [100] , 0402 Resistor, https://www.lcsc.com/product-detail/C844712.html, 
+LUME PEN, 1, CRCW0402200KFKED, 200k , C482093, $0.0045, $0.45 [100] , 0402 Resistor, https://www.lcsc.com/product-detail/C482093.html, 
+LUME PEN, 6, CRCW0402680RFKED, 680 , C482224, $0.0047, $0.47 [100] , 0402 Resistor, https://www.lcsc.com/product-detail/C482224.html, 
 
 
 
