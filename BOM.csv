@@ -51,7 +51,7 @@ GENERAL,1,Stencil,,,$3.07,$3.07[1],,https://jlcpcb.com,
 SHIPPING,,JLCPCB & 3DP,,,,,,,
 SHIPPING,,LCSC,,,,,,,
 ,,,,,,,,,
-TOTAL,,,,,,,,,
-
+TOTAL (first order debug only),,,,,,,,,
+TOTAL (second order FPC + 3D prints),,,,,,,,,
 
 
