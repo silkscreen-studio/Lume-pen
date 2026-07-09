@@ -1,5 +1,5 @@
 /*
- *   CH32 magnetic charger code | LUME Pen | by Silscreen Studio | https://github.com/silkscreen-studio/Lume-pen
+ *   CH32 magnetic charger code | LUME Pen | by Silkscreen Studio | https://github.com/silkscreen-studio/Lume-pen
  *   6 PWM driven LEDs, pen mating detection, load switch control, fault handling
  *   
  *   After creating a new Mounriver Studio project and selecting the chip 'CH32V003F4U', the following main.c file can be replaced with the following code (in User>main.c)  
