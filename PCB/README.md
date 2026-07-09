@@ -1,12 +1,13 @@
 ## To order the flex PCB on JLCPCB:
-Different designs: 3 designs (panel by customer)
 
-EDA software: EasyEDA Pro
+_Different designs: 3 designs (panel by customer)_
 
-Stiffener: based on EasyEDA stiffener layer
+_EDA software: EasyEDA Pro_
 
-coverlay: Yellow
+_Stiffener: based on EasyEDA stiffener layer_
 
-& other parameters as default
+_coverlay: Yellow_
+
+_& other parameters as default_
 
 Should be $40.42
