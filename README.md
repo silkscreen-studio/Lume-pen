@@ -108,5 +108,70 @@ The CH32V003 is programmed with the Mounriver Studio IDE. The code (untested for
 
 <img width="2880" height="1472" alt="Rd3" src="https://github.com/user-attachments/assets/5c14674c-89a4-4c08-b59d-c76b6f70fee0" />
 
+# BOM:
+
+| Product | Qty | Part | Value | LCSC Part number | Price/unit | minimum Price [MOQ] | Extended description | Link | Price for 2 pens 1 debug boards & 2 chargers combined |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---  | --- |
+| LUME PEN | 1 | ATTINY1616-MNR |  | C507118 | $1.09 | $1.09 | Main MCU | https://www.lcsc.com/product-detail/C507118.html | $3.29 |
+| LUME PEN | 1 | TI LP5907SNX-3.0/NOPB | 3.0V | C182423 | $0.1967 | $0.98 [5] | LDO | https://www.lcsc.com/product-detail/C182423.html | $0.98 |
+| LUME PEN | 1 | BQ25170DSGR |  | C5208201 | $0.59 | $0.59 | Li ion battery charger IC | https://www.lcsc.com/product-detail/C5208201.html | $1.77 |
+| LUME PEN | 1 | EPSON RX8111CE-B |  | C2929261 | $1.1739 | $1.1739 | RTC | https://www.lcsc.com/product-detail/C2929261.html | $3.52 |
+| LUME PEN | 1 | AW93105DNR |  | C5241002 | $0.5438 | $0.5438 | Capacitive touch IC (5 channels) | https://www.lcsc.com/product-detail/C5241002.html | $1.63 |
+| LUME PEN | 1 | LESD5D5.0CT1G |  | C5199850 | $0.0166 | $0.83 [50] | TVS diode | https://www.lcsc.com/product-detail/C5199850.html | $0.83 |
+| LUME PEN | 30 | XL-1005UOC | Vf: 2.0V | C965791 | $0.0142 | $0.71 [50] | 0402 Orange LED (display) | https://www.lcsc.com/product-detail/C965791.html | $1.42 |
+| LUME PEN | 31 | XL-1005SURC | Vf: 2.0V | C25503345 | $0.0083 | $0.42 [50] | 0402 Red LED (display (alternate color) and /PG charging) | https://www.lcsc.com/product-detail/C25503345.html | $0.42 |
+| LUME PEN | 5 | CL05A104KA5NNNC | 100nF | C100072 | $0.0063 | $0.63 [100] | 0402 MLCC | https://www.lcsc.com/product-detail/C100072.html | $0.63 |
+| LUME PEN | 3 | CL05A105KO5NNNC | 1µF | C29266 | $0.0102 | $1.02 [100] | 0402 MLCC | https://www.lcsc.com/product-detail/C29266.html | $1.02 |
+| LUME PEN | 2 | GRM155R61E475ME15D | 4.7µF | C2858031 | $0.15 | $1.51 [10] | 0402 MLCC | https://www.lcsc.com/product-detail/C2858031.html | $1.51 |
+| LUME PEN | 1 | XL-1005UBC | Vf: 3.0V | C22355736 | $0.008 | $0.40 [50] | 0402 Blue LED (STAT Charging) | https://www.lcsc.com/product-detail/C22355736.html | $0.40 |
+| LUME PEN | 2 | CRCW04024K70FKED | 4.7k | C482193 | $0.0037 | $0.37 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C482193.html | $0.37 |
+| LUME PEN | 3 | CRCW040220K0FKED | 20k | C482096 | $0.0043 | $0.43 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C482096.html | $0.43 |
+| LUME PEN | 1 | CRCW040224K0FKED | 24k | C295000 | $0.0042 | $0.42 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C295000.html | $0.42 |
+| LUME PEN | 1 | CRCW040227K0FKEDC | 27k | C1730799 | $0.0052 | $0.52 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C1730799.html | $0.52 |
+| LUME PEN | 3 | CRCW040210K0JNED | 10k | C191984 | $0.0035 | $0.35 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C191984.html | $0.35 |
+| LUME PEN | 1 | CRCW0402100KFKEDC | 100k | C844712 | $0.0063 | $0.63 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C844712.html | $0.63 |
+| LUME PEN | 1 | CRCW0402200KFKED | 200k | C482093 | $0.0046 | $0.46 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C482093.html | $0.46 |
+| LUME PEN | 6 | CRCW0402680RFKED | 680 | C482224 | $0.0047 | $0.47 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C482224.html | $0.47 |
+| LUME PEN | 5 | CRCW04020000Z0ED | 0 | C190119 | $0.0043 | $0.43 [100] | 0402 shunt Resistor (capacitive tuning; other values needed for tuning) | https://www.lcsc.com/product-detail/C190119.html | $0.43 |
+|  |  |  |  |  |  |  |  |  |  |
+| CHARGER | 5 | XL-1005UWC | Vf: 2.8V | C20613596 | $0.0112 | $0.56 [50] | 0402 White LED | https://www.lcsc.com/product-detail/C20613596.html | $0.56 |
+| CHARGER | 1 | XL-1005SURC | Vf: 2.0V | C25503345 | $0.0083 | $0.42 [50] | 0402 Red LED | https://www.lcsc.com/product-detail/C25503345.html | / |
+| CHARGER | 2 | CRCW040220K0FKED | 20k | C482096 | $0.0043 | $0.43 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C482096.html | / |
+| CHARGER | 1 | CRCW0402100KFKEDC | 100k | C844712 | $0.0063 | $0.63 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C844712.html | / |
+| CHARGER | 1 | CRCW040210K0JNED | 10k | C191984 | $0.0035 | $0.35 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C191984.html | / |
+| CHARGER | 3 | CL05A104KA5NNNC | 100nF | C100072 | $0.0063 | $0.63 [100] | 0402 MLCC | https://www.lcsc.com/product-detail/C100072.html | / |
+| CHARGER | 6 | CRCW0402330RFKED | 330 | C71626 | $0.0042 | $0.42 [100] | 0402 Resistor | https://www.lcsc.com/product-detail/C71626.html | $0.42 |
+| CHARGER | 1 | CL05A106MP8NUB8 | 10µF | C307415 | $0.15 | $0.73 [5] | 0402 MLCC | https://www.lcsc.com/product-detail/C307415.html | $0.73 |
+| CHARGER | 1 | TPS2553DRVR-1 |  | C411878 | $0.39 | $1.94 [5] | Load switch IC | https://www.lcsc.com/product-detail/C411878.html | $1.94 |
+| CHARGER | 1 | CH32V003F4U6 |  | C5299908 | $0.32 | $1.58 [5] | Main MCU | https://www.lcsc.com/product-detail/C5299908.html | $1.58 |
+| CHARGER | 1 | LESD5D5.0CT1G |  | C5199850 | $0.0168 | $0.84 [50] | TVS diode | https://www.lcsc.com/product-detail/C5199850.html | / |
+| CHARGER | 1 | RB520SM-40T2R |  | C253514 | $0.03 | $0.56 [20] | Schottky diode | https://www.lcsc.com/product-detail/C253514.html | $0.56 |
+| CHARGER | 4 | BWCD-L4.5W2.0H2.3 |  | C2826546 | $0.07 | $0.36 [5] | Pogopin | https://www.lcsc.com/product-detail/C2826546.html | $0.72 |
+| CHARGER | 1 | section of USB cable |  |  |  |  | can be any USB cable; that got the ends stripped |  | / |
+|  |  |  |  |  |  |  |  |  |  |
+| ADDITIONAL PARTS (DEBUG PCB) | 1 | LESD5D5.0CT1G |  | C5199850 | $0.0166 | $0.83 [50] | TVS diode | https://www.lcsc.com/product-detail/C5199850.html | / |
+| ADDITIONAL PARTS (DEBUG PCB) | 1 | RB520SM-40T2R |  | C253514 | $0.03 | $0.56 [20] | Schottky diode | https://www.lcsc.com/product-detail/C253514.html | / |
+| ADDITIONAL PARTS (DEBUG PCB) | 2 | MK-12C02-G015 |  | C2911519 | $0.014 | $0.67 [5] | Slide Switch SPDT | https://www.lcsc.com/product-detail/C2911519.html | $0.67 |
+| ADDITIONAL PARTS (DEBUG PCB) | 2 | HC-PM254-8.5H-1x3PW-02A |  | C22373927 | $0.09 | $0.46 [5] | 90° 2.54mm 1x3 HEADERS | https://www.lcsc.com/product-detail/C22373927.html | $0.46 |
+| ADDITIONAL PARTS (DEBUG PCB) | 5 | FR4 Debug PCB |  |  | $2.00 | $2.00 |  | https://jlcpcb.com | $2.00 |
+| ADDITIONAL PARTS (CHARGER) |  | Epoxy |  |  |  |  | mixed with white acrilyc paint (light diffusing) |  | - |
+|  |  |  |  |  |  |  |  |  |  |
+| GENERAL | 5 | Flex PCB PANEL |  |  | $41.42 | $41.42 |  | https://jlcpcb.com | $41.42 |
+| GENERAL | - | 3D printed parts |  |  | $4.87 | $4.87 | see 3D-CAD/3D-Printed-PARTS | https://jlc3dp.com | $9.74 |
+| GENERAL | 1 | Stencil |  |  | $3.07 | $3.07 |  | https://jlcpcb.com | $3.07
+|  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
+| SHIPPING (first order FR4 debug only + stencil) |  | JLCPCB |  |  | $1.50 x 2 |  |  |  | $3.00 |
+| SHIPPING (second order FPC + 3D prints) |  | JLCPCB & 3DP |  |  | $1.50 |  |  |  | $1.50 |
+| SHIPPING (first order: components) |  | LCSC (GDSL) |  |  | $10.20 |  |  |  | $10.20 |
+|  |  |  |  |  |  |  |  |  |  |
+| TOTAL (first order debug only) |  |  |  |  |  |  |  |  | $47.53 |
+| TOTAL (second order FPC + 3D prints) |  |  |  |  |  |  |  |  | $52.66 |
+|  |  |  |  |  |  |  |  |  |  |
+| PROJECT GRAND TOTAL |  |  |  |  |  |  |  |  | $100.19 |
+
+
+
+
 [^1]: Inspired from the **Seamless** font, a design by Michiel de Boer (_Pozy_): https://www.youtube.com/watch?v=RTB5XhjbgZA&t=6s and https://www.michieldb.nl/other/segments/
 [^2]: more info on my other repository: https://github.com/Dieu-de-l-elec/AngstromIO-devboard
