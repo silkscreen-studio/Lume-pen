@@ -1,4 +1,4 @@
-Product,Qty,Part,Value,LCSC Part number,Price/unit,minimum Price [MOQ],Extended description,Link,Price for 3 boards & 3 chargers combined
+Product,Qty,Part,Value,LCSC Part number,Price/unit,minimum Price [MOQ],Extended description,Link,Price for 2 pens, 1 debug boards & 2 chargers combined
 ,,,,,,,,,
 LUME PEN,1,ATTINY1616-MNR,,C507118,$1.0236,$1.0236,Main MCU,https://www.lcsc.com/product-detail/C507118.html,$3.07
 LUME PEN,1,TI LP5907SNX-3.0/NOPB,3.0V,C182423,$0.1967,$0.98 [5],LDO,https://www.lcsc.com/product-detail/C182423.html,$2.94
@@ -41,10 +41,17 @@ ADDITIONAL PARTS (DEBUG PCB),1,RB520SM-40T2R,,C253514,$0.03,$0.56 [20],Schottky 
 ADDITIONAL PARTS (DEBUG PCB),2,MK-12C02-G015,,C2911519,$0.014,$0.67 [5],Slide Switch SPDT,https://www.lcsc.com/product-detail/C2911519.html, 
 ADDITIONAL PARTS (DEBUG PCB),2,HC-PM254-8.5H-1x3PW-02A,,C22373927,$0.09,$0.46 [5],90° 2.54mm 1x3 HEADERS,https://www.lcsc.com/product-detail/C22373927.html, 
 ADDITIONAL PARTS (DEBUG PCB),5,FR4 Debug PCB,,,,,,https://jlcpcb.com,
-ADDITIONAL PARTS (DEBUG PCB),,Epoxy,,,,,mixed with acrilyc paint (light diffusing),,
+ADDITIONAL PARTS (DEBUG PCB),,Epoxy,,,,,mixed with white acrilyc paint (light diffusing),,
 ,,,,,,,,,
 GENERAL,5,Flex PCB PANEL,,,,,,https://jlcpcb.com,
 GENERAL,-,3D printed parts,,,,,see 3D-CAD/3D-Printed-PARTS,https://jlc3dp.com,
-GENERAL,1,Stencil,,,,,,https://jlcpcb.com,
+GENERAL,1,Stencil,,,$3.07,$3.07[1],,https://jlcpcb.com,
+,,,,,,,,,
+,,,,,,,,,
+SHIPPING,,JLCPCB & 3DP,,,,,,,
+SHIPPING,,LCSC,,,,,,,
+,,,,,,,,,
+TOTAL,,,,,,,,,
+
 
 
