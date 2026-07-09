@@ -48,8 +48,8 @@ GENERAL,-,3D printed parts,,,$4.87,$4.87,see 3D-CAD/3D-Printed-PARTS,https://jlc
 GENERAL,1,Stencil,,,$3.07,$3.07,,https://jlcpcb.com,
 ,,,,,,,,,
 ,,,,,,,,,
-SHIPPING (first order FR4 debug only + stencil),,JLCPCB & 3DP,,$1.50 x 2,,,,,$3.00
-SHIPPING (second order FPC + 3D prints),,JLCPCB & 3DP,,,,,,,$1.50
+SHIPPING (first order FR4 debug only + stencil),,JLCPCB & 3DP,,,$1.50 x 2,,,,$3.00
+SHIPPING (second order FPC + 3D prints),,JLCPCB & 3DP,,,$1.50,,,,$1.50
 SHIPPING,,LCSC,,,,,,,
 ,,,,,,,,,
 TOTAL (first order debug only),,,,,,,,,
