@@ -32,7 +32,7 @@ CHARGER,6,CRCW0402330RFKED,330,C71626,$0.0042,$0.42 [100],0402 Resistor,https://
 CHARGER,1,CL05A106MP8NUB8,10µF,C307415,$0.15,$0.73 [5],0402 MLCC,https://www.lcsc.com/product-detail/C307415.html,$0.73
 CHARGER,1,TPS2553DRVR-1,,C411878,$0.39,$1.94 [5],Load switch IC,https://www.lcsc.com/product-detail/C411878.html,$1.94
 CHARGER,1,CH32V003F4U6,,C5299908,$0.32,$1.58 [5],Main MCU,https://www.lcsc.com/product-detail/C5299908.html,$1.58
-CHARGER,1,LESD5D5.0CT1G,,C5199850,$0.0168,$0.84 [50],TVS diode,https://www.lcsc.com/product-detail/C5199850.html,$0.84
+CHARGER,1,LESD5D5.0CT1G,,C5199850,$0.0168,$0.84 [50],TVS diode,https://www.lcsc.com/product-detail/C5199850.html,/
 CHARGER,1,RB520SM-40T2R,,C253514,$0.03,$0.56 [20],Schottky diode,https://www.lcsc.com/product-detail/C253514.html,$0.56
 CHARGER,4,BWCD-L4.5W2.0H2.3,,C2826546,$0.07,$0.36 [5],Pogopin,https://www.lcsc.com/product-detail/C2826546.html,$0.72
 ,,,,,,,,,
