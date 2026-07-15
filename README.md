@@ -159,6 +159,7 @@ The CH32V003 is programmed with the Mounriver Studio IDE. The code (untested for
 | GENERAL | 5 | Flex PCB PANEL |  |  | $41.42 | $41.42 |  | https://jlcpcb.com | $41.42 |
 | GENERAL | - | 3D printed parts |  |  | $4.87 | $4.87 | see 3D-CAD/3D-Printed-PARTS | https://jlc3dp.com | $9.74 |
 | GENERAL | 1 | Stencil |  |  | $3.07 | $3.07 |  | https://jlcpcb.com | $3.07
+| GENERAL | 2 | neodymium magnets 5x5x5mm (cube) 10pcs |  |  |  | $4.53 | ($2.54 + $1.99 shipping) | https://fr.aliexpress.com/item/1005011587371110.html | $4.53 |
 |  |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 | SHIPPING (first order FR4 debug only + stencil) |  | JLCPCB |  |  | $1.50 x 2 |  |  |  | $3.00 |
@@ -168,7 +169,7 @@ The CH32V003 is programmed with the Mounriver Studio IDE. The code (untested for
 | TOTAL (first order debug only) |  |  |  |  |  |  |  |  | $47.53 |
 | TOTAL (second order FPC + 3D prints) |  |  |  |  |  |  |  |  | $52.66 |
 |  |  |  |  |  |  |  |  |  |  |
-| PROJECT GRAND TOTAL |  |  |  |  |  |  |  |  | $100.19 |
+| PROJECT GRAND TOTAL |  |  |  |  |  |  |  |  | $104.72 |
 
 
 
